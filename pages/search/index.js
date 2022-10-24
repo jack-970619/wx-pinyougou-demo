@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/search/search.js
 Page({
 
     /**

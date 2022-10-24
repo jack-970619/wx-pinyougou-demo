@@ -1,4 +1,4 @@
-// pages/course/course.js
+// pages/search.js
 Page({
 
     /**

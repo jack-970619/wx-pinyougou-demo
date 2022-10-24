@@ -1,47 +1,52 @@
 {
     "pages": [
-        "pages/home/home",
-        "pages/course/course",
+        "pages/index/index",
+        "pages/category/index",
         "pages/study/study",
         "pages/my/my",
         "pages/login/login",
-        "pages/phone-login/phone-login"
+        "pages/phone-login/phone-login",
+        "pages/search",
+        "pages/search/index"
     ],
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "酷丁鱼课堂",
-        "navigationBarTextStyle": "black"
+        "navigationBarBackgroundColor": "#eb4450",
+        "navigationBarTitleText": "品优购",
+        "navigationBarTextStyle": "white"
     },
-
     "tabBar": {
         "color": "#999",
         "backgroundColor": "#fff",
         "selectedColor": "#ff9a29",
         "borderStyle": "white",
-        "list": [{
-          "pagePath": "pages/home/home",
-          "text": "首页",
-          "iconPath": "./assets/tabs/icon_home@2x.png",
-          "selectedIconPath": "./assets/tabs/icon_home_selected@2x.png"
-        }, {
-          "pagePath": "pages/course/course",
-          "text": "分类",
-          "iconPath": "./assets/tabs/icon_course@2x.png",
-          "selectedIconPath": "./assets/tabs/icon_course_selected@2x.png"
-        }, {
-          "pagePath": "pages/study/study",
-          "text": "购物车",
-          "iconPath": "./assets/tabs/icon_study@2x.png",
-          "selectedIconPath": "./assets/tabs/icon_study_selected@2x.png"
-        }, {
-          "pagePath": "pages/my/my",
-          "text": "我的",
-          "iconPath": "./assets/tabs/icon_my@2x.png",
-          "selectedIconPath": "./assets/tabs/icon_my_selected@2x.png"
-        }]
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "./assets/tabs/icon_home@2x.png",
+                "selectedIconPath": "./assets/tabs/icon_home_selected@2x.png"
+            },
+            {
+                "pagePath": "pages/category/index",
+                "text": "分类",
+                "iconPath": "./assets/tabs/icon_course@2x.png",
+                "selectedIconPath": "./assets/tabs/icon_course_selected@2x.png"
+            },
+            {
+                "pagePath": "pages/study/study",
+                "text": "购物车",
+                "iconPath": "./assets/tabs/icon_study@2x.png",
+                "selectedIconPath": "./assets/tabs/icon_study_selected@2x.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "./assets/tabs/icon_my@2x.png",
+                "selectedIconPath": "./assets/tabs/icon_my_selected@2x.png"
+            }
+        ]
     },
-
     "style": "v2",
     "sitemapLocation": "sitemap.json"
 }
